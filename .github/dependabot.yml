@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: composer
+    directory: /saas-onboarding-api
+    schedule:
+      interval: monthly
+  - package-ecosystem: npm
+    directory: /saas-onboarding-web
+    schedule:
+      interval: monthly
+    groups:
+      dev-dependencies:
+        dependency-type: development
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

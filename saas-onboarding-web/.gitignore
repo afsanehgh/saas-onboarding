@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# local env files
+.env
+.env*.local
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+npm-debug.log*
+
+# editors
+.idea
+.vscode
+
+# Next.js SWC plugin cache
+/.swc/
