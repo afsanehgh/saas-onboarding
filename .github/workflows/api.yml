@@ -84,7 +84,7 @@ jobs:
         working-directory: saas-onboarding-api/infrastructure/terraform
     steps:
       - uses: actions/checkout@v4
-      - uses: hashicorp/setup-terraform@v3
+      - uses: hashicorp/setup-terraform@v4
       - name: Validate (no AWS credentials or state backend needed)
         run: |
           terraform init -backend=false
